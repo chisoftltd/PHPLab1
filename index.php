@@ -5,7 +5,7 @@
 <body>
 <p>
     <?php
-    $numberOfHobbits = 2;
+    $numberOfHobbits = 4;
     switch ($numberOfHobbits) {
         case 1:
             echo "1 sad hobbit";
