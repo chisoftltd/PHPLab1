@@ -10,7 +10,7 @@
         print "<p>$x</p>";
     }
 
-    print "<p>As a listen council lets us make changes!</p>";
+    print "<p><b>As a listen council lets us make changes!</b></p>";
     $provisionedActivities = array("specs", "mugs", "sausage rolls");
     foreach ($provisionedActivities as $x) {
         if($x == "mugs"){
