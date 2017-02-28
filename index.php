@@ -5,10 +5,10 @@
 <body>
 <p>
     <?php
-    print "Hello, World!"."\n";
-    print "Hello," . " " . "world" . "!"."\n";
+    print "Hello, World!\n";
+    print "Hello," . " " . "world" . "!\n";
     print 5 * 7;
-    $myname = "Frodo Baggins"."\n <br>";
+    $myname = "Frodo Baggins\n";
     $myage = 111;
     print "My name is" . $myname . "and I am " . $myage;
     ?>
