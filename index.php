@@ -23,7 +23,7 @@
         print "<p>$x</p>";
     }
 
-    echo "<p>Hello!</p>";
+    print "<p><b></b>Hello!</b></p>";
 
     for ($i = 1; $i < 10; $i++) {
 
