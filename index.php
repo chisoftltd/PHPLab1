@@ -5,21 +5,11 @@
 <body>
 <p>
     <?php
-    $wantedgood = "mugs";
-    switch ($wantedgood) {
-        case "specs":
-            echo "You have to be 16 to buy specs";
-            break;
-        case "mugs":
-            echo "You have to be 18 to buy mugs";
-            break;
-        case "sausage rolls":
-            echo "You have to be 18 to buy sausage rolls";
-            break;
-        default:
-            echo "You can want ever you like";
-    }
-
+    $myArray = array("do", "re", "mi"); // declares the array
+    echo $myArray[0]; // outputs "do"
+    $myArray[1] = "la"; // modifies position 1 (re)
+    echo $myArray[1]; // outputs "la"
+    unset($array[2]); // removes the array in position 2
     ?>
 </p>
 </body>
