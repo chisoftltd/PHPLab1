@@ -5,12 +5,12 @@
 <body>
 <p>
     <?php
-    print "Hello, World!\n";
-    print "Hello," . " " . "world" . "!\n";
+    print "Hello, World!";
+    print "\nHello," . " " . "world" . "!";
     print 5 * 7;
-    $myname = "Frodo Baggins\n";
+    $myname = "Frodo Baggins";
     $myage = 111;
-    print "My name is" . $myname . "and I am " . $myage;
+    print "\nMy name is" . $myname . "and I am " . $myage;
     ?>
 </p>
 </body>
