@@ -8,7 +8,7 @@
     print "Hello, World!"."\n";
     print "Hello," . " " . "world" . "!"."\n";
     print 5 * 7;
-    $myname = "Frodo Baggins"."\n";
+    $myname = "Frodo Baggins"."\n <br>";
     $myage = 111;
     print "My name is" . $myname . "and I am " . $myage;
     ?>
