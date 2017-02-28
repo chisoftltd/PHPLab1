@@ -26,13 +26,15 @@
     print "<p><b></b>Hello!</b></p>";
 
     for ($i = 1; $i < 10; $i++) {
-
+        print "<p><b></b>Hello2</b></p>";
         if (0 == $i / 2) {
             echo "<p>Specs</p>";
         }
+        print "<p><b></b>Hello3</b></p>";
         if ($i / 3 == 0) {
             echo "<p>Mugs</p>";
         }
+        print "<p><b></b>Hello4</b></p>";
         if ($i / 4 == 0) {
             echo "<p>Sausage Rolls</p>";
         }
